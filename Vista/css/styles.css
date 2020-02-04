@@ -1,0 +1,26 @@
+/* Formato básico para centrar los elementos de la web */
+
+.main {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    max-height: 300px;
+}
+
+
+/* Estilos necesarios para aplicar la forma del rombo al botón #boton 
+y para asignarle un tamaño acorde a cualquier tamaño de la ventana del navegador */
+
+#rombo {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgba(16, 22, 16, 0.582);
+    background: #05a542;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 0px auto;
+    margin-top: 3.5rem;
+}
